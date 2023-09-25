@@ -31,11 +31,14 @@ console.log(newCards);
 
 // ---------------------4-------------------
 
-newCards.push("Card-6");
+newCards.splice(5, 0, "Card-6");
 console.log(newCards);
 
 // ---------------------5-------------------
 
-index = newCards.indexOf("Card-4");
-newCards[index] = "card4";
+// index = newCards.indexOf("Card-4");
+// newCards[index] = "card4";
+// console.log(newCards);
+
+newCards.splice(2, 1, "card4")
 console.log(newCards);
